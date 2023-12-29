@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, LinkedinIcon, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/pegah_",
-		label: "Twitter",
-		handle: "@pegah_",
+		icon: <LinkedinIcon size={20} />,
+		href: "https://www.linkedin.com/in/pegahf/",
+		label: "LinkedIn",
+		handle: "@linkedin.com/in/pegahf",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@pegah.com",
+		href: "mailto:pegahcode@gmail.com",
 		label: "Email",
-		handle: "dev@pegah.com",
+		handle: "pegahcode@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/pegah",
+		href: "https://github.com/pegahfallah",
 		label: "Github",
-		handle: "pegah",
+		handle: "pegahfallah",
 	},
 ];
 
