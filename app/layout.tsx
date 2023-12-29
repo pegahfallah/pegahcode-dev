@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "pegah.com",
-    template: "%s | pegah.com",
+    default: "pegah fallah - Software Developer",
+    template: "%s | pegahcode.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Software Developer and Augmented Reality filter creator",
   openGraph: {
     title: "pegah.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://pegah.com",
-    siteName: "pegah.com",
+      "Software developer and Augmented Reality filter creator",
+    url: "https://pegahcode.com",
+    siteName: "pegahcode.com",
     images: [
       {
-        url: "https://pegah.com/og.png",
+        url: "https://pegahcode.com/og.png",
         width: 1920,
         height: 1080,
       },
