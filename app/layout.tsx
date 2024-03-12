@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "pegahcode.com",
     images: [
       {
-        url: "https://pegahcode.com/og.png",
+        url: "https://pegahcode.com/",
         width: 1920,
         height: 1080,
       },
@@ -45,10 +45,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
   },
 };
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
 
 const calSans = LocalFont({
   src: "../public/fonts/CalSans-SemiBold.ttf",
@@ -61,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={[calSans.variable].join(" ")}>
       <head>
         <Analytics />
       </head>
